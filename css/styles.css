@@ -228,10 +228,18 @@ body {
 .benefits-list {
     display: flex;
     gap: 24px;
+
 }
 
 .benefits-item {
-    flex-basis: calc((100% - 72px) / 4);;
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.benefits-icon {
+    border-radius: 4px;
+background: var(--cloud, #F4F4FD);
+padding: 24px 100px;
+margin-bottom: 8px;
 }
 
 .benefits-subtitle {
