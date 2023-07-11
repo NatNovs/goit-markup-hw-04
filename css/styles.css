@@ -117,8 +117,6 @@ body {
 .header-menu {
     display: flex;
     gap: 40px;
-    align-items: center;
-    text-align: left;
 }
 
 .header-menu-imet {
@@ -127,7 +125,6 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 76px;
 }
 .header-menu-list {
     color: var(--navi-blue);
