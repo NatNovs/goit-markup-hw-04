@@ -170,26 +170,29 @@ body {
 
 .hero {
     background-color: var(--navi-blue);
-    padding-bottom: 120px;
+    max-width: 1440px;
     width: 100%;
     text-align: center;
-    padding: 188px 0 188px;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
 }
- 
 
 .hero-title {
     color: var(--primary-white);
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin: auto 0;
     max-width: 496px;
-    padding-left: 472px;
-
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
-
 
 .hero-button {
     color: var(--primary-white);
@@ -264,7 +267,6 @@ margin-bottom: 8px;
 }
 
 .doing-container {
-    padding-top: 120px;
 }
 
 .doing-subtitle {
@@ -309,7 +311,6 @@ margin-bottom: 8px;
     font-weight: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -329,6 +330,8 @@ margin-bottom: 8px;
     background-color: var(--primary-white);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    width: 264px;
+    height: 260px;
 
 }
 .subtitle-name {
@@ -357,6 +360,26 @@ margin-bottom: 8px;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
+}
+
+.team-social-icon {
+}
+
+.team-list-icon  {
+    display: flex;
+    border: 1px solid rgba(#4D5AE5);
+width: 40px;
+height: 40px;
+border: 50%;
+margin-bottom: 32px;
+border: 1px solid rgba(#4D5AE5);
+align-items: center;
+justify-content: center;
+}
+
+.team-soclink-icon {
+    fill: var(--primary-brand-iris);
+
 }
 
 /**----FOOTER----**/
