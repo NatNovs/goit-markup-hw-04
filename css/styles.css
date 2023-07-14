@@ -255,6 +255,13 @@ body {
     padding: 120px 0;
 }
 
+.benefits-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px; 
+}
+
 .benefits-list {
     display: flex;
     gap: 24px;
@@ -362,7 +369,9 @@ margin-bottom: 8px;
 
 }
 .subtitle-name {
-    padding: 32px;
+    padding: 32px 0;
+    
+
 
 
 }
