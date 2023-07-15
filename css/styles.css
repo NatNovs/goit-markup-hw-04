@@ -256,16 +256,11 @@ body {
 }
 
 .benefits-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px; 
 }
 
 .benefits-list {
     display: flex;
     gap: 24px;
-
 }
 
 .benefits-item {
@@ -277,6 +272,10 @@ body {
 background: var(--cloud, #F4F4FD);
 padding: 24px 100px;
 margin-bottom: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 112px; 
 }
 
 .benefits-subtitle {
@@ -370,10 +369,6 @@ margin-bottom: 8px;
 }
 .subtitle-name {
     padding: 32px 0;
-    
-
-
-
 }
 
 .team-subtitle {
