@@ -41,7 +41,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--slate-color);
     background-color: var(--primary-white);
-    margin: ;
+    margin: auto 0;
 }
 .visually-hidden {
     position: absolute;
@@ -67,7 +67,7 @@ body {
     text-decoration: none;
 }
 
-/*!-------HEADER-------*/
+/*-------HEADER-------*/
 
 .header {
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
@@ -182,7 +182,7 @@ body {
     left: 0;
 }
 
-/*?-------HERO-------*/
+/*-------HERO-------*/
 
 
 .container-hero {
@@ -247,7 +247,7 @@ body {
 
 }
 
-/**-------BENEFITS-------**/
+/*-------BENEFITS-------*/
 
 .benefits {
     background-color: var(--primary-white);
@@ -293,7 +293,7 @@ height: 112px;
     letter-spacing: 0.02em;
 }
 
-/*!-----DOING-----*/
+/*-----DOING-----*/
 
 .doing {
     padding-bottom: 120px;
@@ -327,7 +327,7 @@ height: 112px;
 .doing-img {
 }
 
-/*?-----TEAM-----*/
+/*-----TEAM-----*/
 
 .team { 
     background-color: var(--cloud-color);
@@ -481,7 +481,7 @@ height: 112px;
     color: var(--pressed-state-ocean);
 }
 
-/**----FOOTER----**/
+/*----FOOTER----*/
 
 .footer {
     background-color: #2E2F42;
@@ -577,9 +577,9 @@ margin-bottom: 16px;
     fill: var(--cloud-color);
 }
 
-/**-----PORTFOLIO-----**/
+/*-----PORTFOLIO-----*/
 
-/**Menu button**/
+/*Menu button*/
 
 .button {
     padding-top: 96px;
@@ -635,7 +635,7 @@ margin-bottom: 16px;
 
     
 }
-*!-----content-----*/
+/*-----content-----*/
 
 .content-list {
     display: flex;
@@ -670,7 +670,7 @@ margin-bottom: 16px;
 .content-dodatkov {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);:display;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .content-dodatkov:hover {
