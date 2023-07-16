@@ -799,7 +799,6 @@ margin-bottom: 16px;
 
 .modal-close-button:is(:hover, :focus) {
     background-color: var(--pressed-state-ocean);
-    fill: var(--primary-white);
     border: none;
 }
 .modal-close-button:is(:hover, :focus) {
