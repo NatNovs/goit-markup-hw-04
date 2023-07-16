@@ -424,13 +424,9 @@ height: 112px;
 /?------Costomers-----?/
 
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
-.custom {
-    margin: 0, auto;
-}
 
 .customers-title {
     color: var(--navi-blue);
@@ -449,7 +445,6 @@ height: 112px;
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -472,12 +467,10 @@ height: 112px;
     justify-content: center;
     color: var(--light-slate-color);
     border: 1px solid var(--light-slate-color);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .customers-icon {
     fill: currentColor;
-    transition: fall 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .customers-icon:is(:hover, :focus) {
