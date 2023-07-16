@@ -186,7 +186,6 @@ body {
 
 
 .container-hero {
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 112px;
@@ -218,6 +217,9 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
 }
 
 .hero-button {
@@ -423,10 +425,11 @@ height: 112px;
 
 /?------Costomers-----?/
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+.custom{
+    padding: 120px 0;
+    display: block;
 }
+
 
 .customers-title {
     color: var(--navi-blue);
