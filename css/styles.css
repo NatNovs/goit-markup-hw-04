@@ -423,9 +423,9 @@ height: 112px;
 
 /?------Costomers-----?/
 
-.custom {
-    padding: 120px 0;
-    display: block;
+.customers-block {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -439,11 +439,14 @@ height: 112px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    padding-top: 120px;
+    
 }
 
 .customers-list {
     display: flex;
     gap: 24px;
+    padding-bottom: 120px;
 }
 
 
@@ -485,11 +488,11 @@ height: 112px;
     background-color: #2E2F42;
     padding: 100px 0;
 }
+
 .container .footer-logo {
     display: flex;
     width: 71px;
     height: 21px;
-    padding-top: 101px;
     padding-bottom: 18px;
     display: inline-block;
 }
@@ -524,7 +527,6 @@ height: 112px;
     letter-spacing: 0.02em;
     width: 264px;
     display: flex;
-    padding-bottom: 100px;
     padding-top: 18px;
 }
 
@@ -539,9 +541,6 @@ height: 112px;
 }
 
 .footer-social {
-    margin-top: 100px;
-    
-
 }
 
 .footer-social-text {
