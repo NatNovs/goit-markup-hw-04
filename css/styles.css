@@ -796,6 +796,11 @@ margin-bottom: 16px;
     background-color: var(--pressed-state-ocean);
     border: none;
 }
-.data-modal-close:is(:hover, :focus) {
+
+.modal-close-button:hover .data-modal-close {
+    fill: var(--primary-white);
+}
+
+.modal-close-button:focus .data-modal-close {
     fill: var(--primary-white);
 }
